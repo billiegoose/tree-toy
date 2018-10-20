@@ -10,6 +10,7 @@ export default [
     plugins: [
       resolve(),
       commonjs()
-    ]
+    ],
+    external: []
   }
 ]
